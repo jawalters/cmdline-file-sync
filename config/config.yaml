@@ -1,0 +1,11 @@
+default:
+  localPath:                   /Projects/
+  remotePath:                  /home/user/Projects/
+  araxisMergeExe:              /Program Files/Araxis/Araxis Merge/Compare.exe
+  araxisMergeCommandSeparator: /
+  recursive:                   true
+  sftp:
+    host:                      hostname
+    port:                      22
+    username:                  username
+    password:                  password

@@ -1,0 +1,23 @@
+{
+  "name": "file_sync",
+  "version": "0.0.3",
+  "description": "Utility to automate file deployment to a remote target",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "keypress": "^0.2.1",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "nopt": "^3.0.1",
+    "prompt": "^0.2.14",
+    "sprintf": "^0.1.4",
+    "ssh2": "^0.3.6",
+    "yaml-config": "^0.3.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-cli": "0.1.x",
+    "grunt-contrib-jshint": "0.8.x",
+    "grunt-mocha-test": "0.9.x"
+  }
+}
